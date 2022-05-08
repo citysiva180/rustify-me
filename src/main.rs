@@ -1,4 +1,6 @@
 mod print;
+mod string;
+mod tuples;
 mod types;
 mod vars;
 
@@ -7,4 +9,6 @@ fn main() {
     print::run();
     vars::run();
     types::run();
+    string::run();
+    tuples::run();
 }
