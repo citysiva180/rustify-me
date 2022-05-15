@@ -1,5 +1,6 @@
 mod arrays;
 mod conditional;
+mod enums;
 mod functions;
 mod loops;
 mod pointer_ref;
@@ -10,6 +11,7 @@ mod tuples;
 mod types;
 mod vars;
 mod vectors;
+
 fn main() {
     println!("Hello, world!"); //Feels like Javascript / Java
     print::run();
@@ -24,4 +26,5 @@ fn main() {
     functions::run();
     pointer_ref::run();
     structs::run();
+    enums::run();
 }

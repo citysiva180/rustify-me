@@ -51,15 +51,15 @@ pub fn run() {
     // let mut c = Color(255, 0, 0);
     // c.0 = 200;
     // println!("Color: {} {} {}", c.0, c.1, c.2);
-    let mut white = Person::new("Brad", "Traversy");
-    println!("Hi, {} {}", white.first_name, white.last_name);
+    let mut human_1 = Person::new("Brad", "Traversy");
+    println!("Hi, {} {}", human_1.first_name, human_1.last_name);
 
-    let mut black = Person::new("Marlon", "Brando");
-    println!("Hi, {}", black.full_name());
+    let mut human_2 = Person::new("Marlon", "Brando");
+    println!("Hi, {}", human_2.full_name());
 
-    let mut human = Person::new("Mary", "Condo");
-    println!("Hi, {}", human.full_name());
-    human.set_last_name("Williams");
-    println!("Hi, {}", human.full_name());
-    println!("Hi, {:?}", human.to_tuple());
+    let mut human_3 = Person::new("Mary", "Condo");
+    println!("Hi, {}", human_3.full_name());
+    human_3.set_last_name("Williams");
+    println!("Hi, {}", human_3.full_name());
+    println!("Hi, {:?}", human_3.to_tuple());
 }
