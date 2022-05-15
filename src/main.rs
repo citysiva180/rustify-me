@@ -5,11 +5,11 @@ mod loops;
 mod pointer_ref;
 mod print;
 mod string;
+mod structs;
 mod tuples;
 mod types;
 mod vars;
 mod vectors;
-
 fn main() {
     println!("Hello, world!"); //Feels like Javascript / Java
     print::run();
@@ -23,4 +23,5 @@ fn main() {
     loops::run();
     functions::run();
     pointer_ref::run();
+    structs::run();
 }
