@@ -1,5 +1,7 @@
 mod arrays;
 mod conditional;
+mod functions;
+mod loops;
 mod print;
 mod string;
 mod tuples;
@@ -8,7 +10,7 @@ mod vars;
 mod vectors;
 
 fn main() {
-    // println!("Hello, world!"); //Feels like Javascript / Java
+    println!("Hello, world!"); //Feels like Javascript / Java
     print::run();
     vars::run();
     types::run();
@@ -17,4 +19,6 @@ fn main() {
     arrays::run();
     vectors::run();
     conditional::run();
+    loops::run();
+    functions::run();
 }
