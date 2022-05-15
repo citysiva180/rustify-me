@@ -1,4 +1,5 @@
 mod arrays;
+mod cli;
 mod conditional;
 mod enums;
 mod functions;
@@ -27,4 +28,5 @@ fn main() {
     pointer_ref::run();
     structs::run();
     enums::run();
+    cli::run();
 }
