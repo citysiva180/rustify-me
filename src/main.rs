@@ -2,6 +2,7 @@ mod arrays;
 mod conditional;
 mod functions;
 mod loops;
+mod pointer_ref;
 mod print;
 mod string;
 mod tuples;
@@ -21,4 +22,5 @@ fn main() {
     conditional::run();
     loops::run();
     functions::run();
+    pointer_ref::run();
 }
